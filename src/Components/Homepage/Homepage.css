@@ -32,3 +32,11 @@
   .singleLink {
     text-decoration: none;
   }
+
+  /* RESPONSIVE STYLING */
+
+  @media (max-width: 500px) {
+    .hpTitle {
+      padding-inline: 5px;
+    }
+  }
