@@ -1,0 +1,36 @@
+.cardPage {
+    text-align: center;
+}
+
+.cardList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .playerCards {
+    margin: auto;
+    height: 650px;
+    max-width: 250px;
+    margin: 10px;
+    overflow: auto;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+  }
+  
+  .playerCards:hover {
+    cursor: pointer;
+  }
+  
+  .cardName {
+    font-family: "Unica One", cursive;
+    font-size: 18px;
+    color: white;
+  }
+  
+  .cardImage {
+    max-height: 500px;
+  }

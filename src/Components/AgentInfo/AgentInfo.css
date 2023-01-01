@@ -1,0 +1,76 @@
+.agentInfoPage {
+    text-align: center;
+}
+
+.agentInfo {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    max-height: 800px;
+    max-width: 800px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 3px 2px 20px rgba(78, 10, 109, 0.1);
+  }
+  
+  .agentImageContainer {
+    width: 250px;
+    overflow: hidden;
+    margin-left: 5%;
+    padding-bottom: 2%;
+  }
+  
+  .agentPicture {
+    margin-left: -110px;
+    max-height: 450px;
+    padding-right: 5px;
+    float: left;
+  }
+  
+  .descriptionContainer {
+    max-width: 400px;
+    align-content: center;
+    margin-left: 5%;
+  }
+  
+  .agentDescription {
+    color: white;
+    font-size: 16px;
+  }
+  
+  .roleContainer {
+    margin-top: -15px;
+  }
+  
+  .agentRoleIcon {
+    height: 20px;
+    width: 20px;
+    margin-right: 2%;
+  }
+  
+  .abilityTitle {
+    margin-top: 10%;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    font-family: "Unica One", cursive;
+    color: white;
+    font-weight: 100;
+  }
+  
+  .abilityList {
+    display: inline-block;
+  }
+  
+  .abilityIcon {
+    max-width: 25px;
+    max-height: 25px;
+  }
+  
+  .abilityName {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    color: white;
+    padding: 0px 5px;
+    font-weight: 100;
+  }
+  

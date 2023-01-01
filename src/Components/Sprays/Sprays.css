@@ -1,0 +1,34 @@
+.spraysPage {
+    text-align: center;
+}
+
+.sprayList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .sprayCards {
+    margin: auto;
+    height: 300px;
+    width: 300px;
+    padding: 5px;
+    margin: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    box-shadow: 3px 2px 20px rgba(78, 10, 109, 0.1);
+  }
+  
+  .sprayName {
+    font-family: "Unica One", cursive;
+    font-size: 25px;
+    color: white;
+  }
+  
+  .sprayImage {
+    max-width: 350px;
+    max-height: 200px;
+  }

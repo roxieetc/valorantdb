@@ -1,0 +1,34 @@
+.linkText {
+    font-size: 40px;
+    color: white;
+  }
+  
+  .hpButton {
+    display: block;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid white;
+    width: 300px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-top: 25px;
+  }
+  
+  .hpButton:hover {
+    box-shadow: 3px 1px 30px rgba(255, 255, 255, 0.1);
+    transform: scale(1.03);
+  }
+
+  .hpTitle {
+    text-align: center;
+  }
+  
+  .buttonList {
+    margin: auto;
+    width: 300px;
+    padding-bottom: 25px;
+  }
+  
+  .singleLink {
+    text-decoration: none;
+  }
